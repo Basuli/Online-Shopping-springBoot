@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApigatewayApplication",
+            "request": "launch",
+            "mainClass": "com.basuli.apigateway.ApigatewayApplication",
+            "projectName": "apigateway"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "InventoryserviceApplication on port 8082",
+            "request": "launch",
+            "mainClass": "com.basuli.inventoryservice.InventoryserviceApplication",
+            "projectName": "inventoryservice",
+            "args": "--server.port=8082"
+        },
+        {
+            "type": "java",
+            "name": "InventoryserviceApplication on port 8084",
+            "request": "launch",
+            "mainClass": "com.basuli.inventoryservice.InventoryserviceApplication",
+            "projectName": "inventoryservice",
+            "args": "--server.port=8084"
+        },
+        {
+            "type": "java",
+            "name": "OrderserviceApplication",
+            "request": "launch",
+            "mainClass": "com.basuli.orderservice.OrderserviceApplication",
+            "projectName": "orderservice"
+        },
+        {
+            "type": "java",
+            "name": "ProductserviceApplication",
+            "request": "launch",
+            "mainClass": "com.basuli.productservice.ProductserviceApplication",
+            "projectName": "productservice"
+        },
+        {
+            "type": "java",
+            "name": "ServiceregistryApplication",
+            "request": "launch",
+            "mainClass": "com.basuli.serviceregistry.ServiceregistryApplication",
+            "projectName": "serviceregistry"
+        }
+    ]
+}
